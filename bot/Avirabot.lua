@@ -259,8 +259,9 @@ function create_config( )
     "welcome",
     "webshot",
     "voice",
+    "anti_reply"
     },
-    sudo_users = { 134461890,149921837,209689698,105831687,122997453,123627901},--Sudo users
+    sudo_users = { 101564409,},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[ ]],
