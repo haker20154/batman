@@ -1,4 +1,4 @@
-# Avirabot
+# tele.goold.bot
 
 [![https://yago.me/tg-bot](https://img.shields.io/badge/💬_Telegram-Avirabot-blue.svg)](https://telegram.me/avirabot)
 
