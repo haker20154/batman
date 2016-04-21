@@ -6,11 +6,10 @@ do
 
 a Persian bot for Iranian 🇮🇷
 
-Sudo : @mohammadarak
+Sudo : @Fucker_rasol_Fucker
 
-Bot id : https://telegram.me/avirabot
+Bot id : https://telegram.me/Tele_Gold_bots
 
-http://s7.picofile.com/file/8246000950/Avira.jpg
 ]]
     return text
   end
