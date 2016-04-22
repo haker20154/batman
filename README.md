@@ -1,6 +1,6 @@
 # tele.goold.bot
 
-[![https://yago.me/tg-bot](https://img.shields.io/badge/💬_Telegram-Avirabot-blue.svg)](https://telegram.me/avirabot)
+[![https://yago.me/tg-bot](https://img.shields.io/badge/💬_Telegram-tele-gold-blue.svg)](https://telegram.me/Tele_Gold_bots)
 
 **An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
 # Features
