@@ -432,6 +432,8 @@ function create_config( )
 
 !webshot (آدرس سایت)
 اسکرین شات گرفتن از یک سایت
+
+@Tele_Gold_bots
 ]],
   }
   serialize_to_file(config, './data/config.lua')
