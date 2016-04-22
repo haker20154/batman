@@ -267,7 +267,7 @@ function create_config( )
     help_text_realm = [[ ]],
     help_text = [[ ]],
 	help_text_super =[[
-🚀 Spam Guard SuperGroup Commands:
+🚀 TeleGold SuperGroup Commands:
 
 !owner
 دریافت آیدی مدیر اصلی گروه
