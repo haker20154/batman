@@ -433,6 +433,9 @@ function create_config( )
 !webshot (آدرس سایت)
 اسکرین شات گرفتن از یک سایت
 
+!update
+برای اپدیت کردن پلاگین ها
+
 @Tele_Gold_bots
 ]],
   }
