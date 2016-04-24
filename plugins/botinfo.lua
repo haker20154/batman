@@ -2,7 +2,7 @@ do
     function run(msg, matches)
         
   local text = [[
-🚀 Avira is best bot
+🚀 telegold is best bot
 
 a Persian bot for Iranian 🇮🇷
 
@@ -21,7 +21,7 @@ return {
     "Show bot about.",
   },
   patterns = {
-    "^[!/]([Aa]vira)$",
+    "^[!/]([Tt]elegolds)$",
   }, 
   run = run,
 }
