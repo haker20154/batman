@@ -2053,6 +2053,7 @@ return {
 	"^[#!/]([Mm]utelist)$",
 	"^[#!/]([Mm]uteslist)$",
 	"^[#!/]([Mm]uteuser)$",
+	"^بابا$",
         "^[#!/]([Mm]uteuser) (.*)$",
 	"^[#!/]([Pp]ublic) (.*)$",
 	"^[#!/]([Ss]ettings)$",
