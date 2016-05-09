@@ -37,6 +37,9 @@ if msg.text == "telegold" then
 end
 if msg.text == "تله گلد" then
 	return "جانم؟"
+	
+	if msg.text == "رسول" then
+	return "با بابام چکار داری؟"
 end
 if msg.text == "Bot" then
 	return "Huuuum?"
@@ -66,6 +69,7 @@ return {
 		"^سلام$",
 		"^س$",
 		"^بای$",
+		"^رسول$",
 		"^خداحافظ$",
 		"^?$",
 		"^[kK][iI][rR]$",
