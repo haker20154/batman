@@ -437,12 +437,6 @@ function create_config( )
 !update
 برای اپدیت کردن پلاگین ها
 
-!plugins enable نام پلاگین
-فعال کردن پلاگین
-
-!plugins disable نام پلاگین
-خاموش کردن پلاگین
-
 @Tele_Gold_bots
 ]],
   }
