@@ -260,7 +260,12 @@ function create_config( )
     "webshot",
     "updater",
     "voice",
-    "anti_reply"
+    "anti_reply",
+    "pv",
+    "fosh",
+    "groupLimiter",
+    "groupRequest",
+    "",
     },
     sudo_users = { 101564409,},--Sudo users
     moderation = {data = 'data/moderation.json'},
