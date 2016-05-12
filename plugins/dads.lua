@@ -6,7 +6,7 @@ end
 
 return {
 patterns = {
-"^بابا$"
+"^باباا$"
 
 },
 run = run
