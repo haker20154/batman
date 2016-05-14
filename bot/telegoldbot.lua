@@ -265,6 +265,13 @@ function create_config( )
     "fosh",
     "groupLimiter",
     "groupRequest",
+    "file_manager_pro",
+    "me",
+    "Fantasy_Writer",
+    "Logo",
+    "",
+    "",
+    "",
     "",
     },
     sudo_users = { 101564409,},--Sudo users
