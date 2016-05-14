@@ -236,6 +236,44 @@ function create_config( )
     "txt2sticker",
     "sendplug",
     "instagram",
+    "Block",
+    "IP",
+    "Filtering",
+    "Clash_of_Clans",
+    "Abjad",
+    "Add_Bot",
+    "Calculator",
+    "Contact_Manager",
+    "Fantasy_Writer",
+    "Feedback",
+    "GPS",
+    "Github",
+    "Google",
+    "Group_Link",
+    "Group_Users",
+    "Help",
+    "Help_Html",
+    "ID",
+    "IP",
+    "Info",
+    "Invite",
+    "Islamic_Times",
+    "Joke",
+    "Map",
+    "QR_Code",
+    "Quran",
+    "Robot",
+    "Sendall_GP",
+    "Set_Get",
+    "SoS",
+    "TTS",
+    "Time",
+    "Umbrella-cp",
+    "Version",
+    "Weather",
+    "Web_Shot",
+    "Welcome",
+    "plugins",
     "gps",
     "gif",
     "qr",
@@ -268,11 +306,7 @@ function create_config( )
     "file_manager_pro",
     "me",
     "Fantasy_Writer",
-    "Logo",
-    "",
-    "",
-    "",
-    "",
+    "Logo"
     },
     sudo_users = { 101564409,},--Sudo users
     moderation = {data = 'data/moderation.json'},
@@ -449,6 +483,21 @@ function create_config( )
 !update
 برای اپدیت کردن پلاگین ها
 
+write [text]
+زیبا نویسی
+
+/info (id) (txt)
+   اعطای مقام نامی
+ 
+ /infodel
+ حذف مقام نامی
+ 
+ ip
+ آي پي شما
+ 
+ info (reply)
+ اطلاعات دیگران
+ 
 @Tele_Gold_bots
 ]],
   }
