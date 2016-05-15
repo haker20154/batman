@@ -308,13 +308,13 @@ function create_config( )
     "Fantasy_Writer",
     "Logo"
     },
-    sudo_users = { 101564409,},--Sudo users
+    sudo_users = { 131232407,},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[ ]],
     help_text = [[ ]],
 	help_text_super =[[
-🚀 TeleGold SuperGroup Commands:
+🚀 Teleavira SuperGroup Commands:
 
 !owner
 دریافت آیدی مدیر اصلی گروه
@@ -498,7 +498,7 @@ write [text]
  info (reply)
  اطلاعات دیگران
  
-@Tele_Gold_bots
+@Teleavirateam
 ]],
   }
   serialize_to_file(config, './data/config.lua')
