@@ -386,7 +386,7 @@ function create_config( )
 !unmute [chat|audio|gifs|photo|video|service]
 با صدا کردن یک تایپ در سوپرگروه 
 
-!setflood [عدد]
+!#setflood [عدد]
 تنظیم کردن حساسیت اسپم
 
 !settings
@@ -497,8 +497,13 @@ write [text]
  
  info (reply)
  اطلاعات دیگران
+
  
 @Teleavirateam
+👆👆Channel bot
+راهنما فارسی شده توسط میلاد
+@avirateam1
+ 👆👆👆My id
 ]],
   }
   serialize_to_file(config, './data/config.lua')
@@ -587,4 +592,4 @@ our_id = 0
 now = os.time()
 math.randomseed(now)
 started = false
-Uu
+U
