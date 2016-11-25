@@ -308,13 +308,76 @@ function create_config( )
     "Fantasy_Writer",
     "Logo"
     },
-    sudo_users = { 131232407,},--Sudo users
+    sudo_users = {211752618},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[ ]],
-    help_text_realm = [[ ]],
-    help_text = [[ ]],
-	help_text_super =[[
-🚀 Teleavira SuperGroup Commands:
+    about_text = [[ 
+😎EnterTg 😎
+💠An advence Telegram Bot Based On Lua And Dev By NOBLEST💠
+❗️Sudo Users
+@NOBLEST [Founder,Developer,Manager]
+Special Thanks ⬇️
+Mohammad
+And All My Friends :D
+Copuright © @NOBLEST ]],
+    help_text_realm = [[ 
+EnterTG Bot Realm Helps 🔻
+〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+Realm Commands:
+!creategroup [Name]
+Create a group
+!createrealm [Name]
+Create a realm
+!setname [Name]
+Set realm name
+!setabout [group|sgroup] [GroupID] [Text]
+Set a group's about text
+!setrules [GroupID] [Text]
+Set a group's rules
+!lock [GroupID] [setting]
+Lock a group's setting
+!unlock [GroupID] [setting]
+Unock a group's setting
+!settings [group|sgroup] [GroupID]
+Set settings for GroupID
+!wholist
+Get a list of members in group/realm
+!who
+Get a file of members in group/realm
+!type
+Get group type
+!kill chat [GroupID]
+Kick all memebers and delete group
+!kill realm [RealmID]
+Kick all members and delete realm
+!setadmin [id|username]
+Promote an admin by id OR username *Sudo only
+!removeadmin [id|username]
+Demote an admin by id OR username *Sudo only
+!list groups
+Get a list of all groups
+!list realms
+Get a list of all realms
+!support
+Promote user to support
+!-support
+Demote user from support
+!log
+Get a logfile of current group or realm
+!broadcast [text]
+!broadcast Hello !
+Send text to all groups
+Only sudo users can run this command
+!bc [group_id] [text]
+!bc 123456789 Hello !
+This command will send text to [group_id]
+**You can use "#", "!", or "/" to begin all commands
+*Only admins and sudo can add bots in group
+*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
+*Only admins and sudo can use res, setowner, commands
+〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰	
+🔻]],
+    help_text = [[
+🚀EnterTg SuperGroup Commands:
 
 !owner
 دریافت آیدی مدیر اصلی گروه
@@ -499,10 +562,201 @@ write [text]
  اطلاعات دیگران
 
  
-@Teleavirateam
+@Sapce_Team
 👆👆Channel bot
-راهنما فارسی شده توسط میلاد
-@avirateam1
+راهنما فارسی شده توسط پارسا
+@Boy_virtual
+ 👆👆👆My id]],
+	help_text_super =[[
+🚀 EnterTg SuperGroup Commands:
+
+!owner
+دریافت آیدی مدیر اصلی گروه
+
+!modlist
+دریافت لیست معاونان سوپرگروه
+
+!block
+اخراج و اضافه کردن یک فرد به لیست بلاک
+
+!ban
+بن کردن فردی از سوپرگروه
+
+!unban
+آنبن کردن فردی از سوپرگروه
+
+!muteuser
+بی صدا کردن فرد توسط ریپلی یا یوزرنیم
+برای خارج کردن از بی صدا دوباره دستور را ارسال نمایید
+
+!info
+دریافت اطلاعات خود
+
+!save (متن) (موضوع)
+ذخیره یک متن
+
+!get (موضوع)
+دریافت متن ذخیره شده
+
+!id
+دریافت آیدی سوپرگروه یا یک فرد
+
+!setowner
+تنظیم کردن مدیر اصلی سوپرگروه
+
+!promote [یوزرنیم|آیدی] 
+اضافه کردن مدیر به سوپرگروه
+
+!demote [یوزرنیم|آیدی]
+حذف کردن مدیر از سوپرگروه
+
+!setname (نام جدید گروه)
+تنظیم نام گروه
+
+!setphoto
+تنظیم عکس گروه
+
+!setrules
+تنظیم قوانین گروه
+
+!newlink
+ایجاد لینک جدید
+
+!link
+دریافت لینک
+
+!rules
+دریافت قوانین
+
+!lock [links|spam|Arabic|member|rtl|sticker|contacts|strict]
+قفل کردن تنظیمات سوپرگروه
+
+!unlock [links|spam|Arabic|member|rtl|sticker|contacts|strict]
+بازکردن تنظیمات سوپرگروه
+
+!mute [chat|audio|gifs|photo|video|service]
+بی صدا کردن یک تایپ در سوپرگروه
+
+!unmute [chat|audio|gifs|photo|video|service]
+با صدا کردن یک تایپ در سوپرگروه 
+
+!#setflood [عدد]
+تنظیم کردن حساسیت اسپم
+
+!settings
+دریافت تنظیمات سوپرگروه
+
+!banlist
+دریافت لیست اعضای بن شده
+
+!clean [rules|about|modlist|mutelist]
+پاک کردن قوانین ، درباره ، اعضای بی صدا و لیست مدیران
+
+!del
+حذف یک پیام توسط ریپلی در سوپرگروه
+
+!support
+دعوت سازنده ربات در صورت وجود مشکل 
+فقط در صورت وجود مشکل در گروه سازنده را دعوت کنید در غیر این صورت گروه شما حذف خواهد شد 
+
+!feedback (متن)
+ارسال پیام به سازنده
+
+!supportlink
+دریافت لینک گروه ساپورت ربات
+
+!git (یوزرنیم)
+دریافت اطلاعات یک یوزرنیم در گیت هاب
+
+!google
+سرچ کردن در گوگل
+
+!aparat متن
+سرچ کردن یک متن در آپارات
+
+!praytime (شهر)
+دریافت وقت اذان یک شهر
+
+بگو (متن)
+تکرار یک متن توسط ربات
+
+!gif متن
+سرچ کردن یک متن و دریافت به صورت گیف
+
+!gps (شهر) (کشور)
+دریافت مکان مورد نظر از گوگل
+
+!insta (یوزرنیم اینستا)
+سرچ کردن یک یوزرنیم در اینستاگرام
+
+!tosticker
+تبدیل کردن عکس به استیکر توسط ریپلی
+
+!tophoto
+تبدیل استیکر به عکس توسط ریپلی 
+
+!qr
+دریافت هر چیزی به صورت بارکد
+
+!addword کلمه
+اضافه کردن یک کلمه به لیست فیلتر
+
+!rw کلمه
+حذف یک کلمه از لیست فیلترینگ 
+
+!badwords
+دریافت لیست فیلترینگ 
+
+!msgrem (عددی زیر 100)
+حذف پیام های سوپرگروه به صورت عددی
+
+!file (متن) (نام فایل.فرمت فایل)
+دریافت یک نوشته به صورت فایل با فرمت دلخواه
+
+!wikifa (متن)
+جستجوی یک متن در ویکی پدیا 
+
+!calc 4-2
+انجام محاسبات ریاضی 
+
+!time (نام شهر)
+دریافت زمان یک شهر 
+
+!weather (نام شهر)
+دریافت وضعیت آب و هوای یک شهر
+
+!sticker متن
+تبدیل متن به استیکر
+
+!vc متن
+دریافت متن به صورت صدا
+
+!webshot (آدرس سایت)
+اسکرین شات گرفتن از یک سایت
+
+!update
+برای اپدیت کردن پلاگین ها
+
+write [text]
+زیبا نویسی
+
+/info (id) (txt)
+   اعطای مقام نامی
+ 
+ /infodel
+ حذف مقام نامی
+ 
+ ip
+ آي پي شما
+ 
+ info (reply)
+ اطلاعات دیگران
+
+ 
+@Sapce_Team
+👆👆Channel bot
+راهنما فارسی شده توسط پارسا
+@Boy_virtual
  👆👆👆My id
 ]],
   }
